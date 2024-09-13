@@ -27,13 +27,13 @@ This project implements a traffic light control environment using reinforcement 
 You can install the required packages using pip:
 
 ```bash
-pip install stable-baselines3 gymnasium numpy tensorboard
+pip install stable-baselines3 gymnasium numpy scipy
 ```
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/traffic_light_ppo.git
+git clone https://github.com/southrussian/traffic_light_ppo.git
 cd traffic_light
 ```
 
