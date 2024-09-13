@@ -12,9 +12,7 @@ This project implements a traffic light control environment using reinforcement 
 - [Project Structure](#project-structure)
 - [Environment](#environment)
 - [Training](#training)
-- [Metrics and TensorBoard](#metrics-and-tensorboard)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -36,7 +34,7 @@ pip install stable-baselines3 gymnasium numpy tensorboard
 
 ```bash
 git clone https://github.com/yourusername/traffic_light_ppo.git
-cd traffic_light_ppo
+cd traffic_light
 ```
 
 ## Usage
@@ -45,15 +43,10 @@ cd traffic_light_ppo
 
 1. Train the model:
     ```bash
-    python env.py
+    python eval.py
     ```
 
-2. Monitor training in TensorBoard:
-    ```bash
-    tensorboard --logdir=./ppo_traffic_tensorboard/
-    ```
-
-### Main Script: `main.py`
+### Main Script: `env.py`
 
 The main script trains the traffic light environment using PPO. It includes the following steps:
 
