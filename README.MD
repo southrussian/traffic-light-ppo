@@ -1,6 +1,4 @@
-Вот пример содержимого для файла `README.md`:
 
----
 
 # Traffic Light Control with PPO
 
